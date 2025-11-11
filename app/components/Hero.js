@@ -10,9 +10,7 @@ import IndustriesScene from './IndustriesScene';
 import { ThreeDCardDemo } from './ThreeDCardDemo';
 import { ThreeCardDemo2 } from './ThreeCardDemo2';
 import { Threecarddemo1 } from './Threecarddemo1';
-import gsap from 'gsap-trial';
-import SplitText from 'gsap-trial/SplitText';
-import { useGSAP } from '@gsap/react';
+
 
 gsap.registerPlugin(SplitText);
 
@@ -21,9 +19,6 @@ const langar = Langar({ subsets: ['latin'],weight: '400' });
 
 const Hero = () => {
 
-  useGSAP(() => {
-    
-  }, []);
   return (
     <div className='relative w-full'>
       <div className='fixed z-20 h-5 w-5 bg-red-100'></div>
