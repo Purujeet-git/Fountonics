@@ -12,7 +12,6 @@ import { ThreeCardDemo2 } from './ThreeCardDemo2';
 import { Threecarddemo1 } from './Threecarddemo1';
 
 
-gsap.registerPlugin(SplitText);
 
 
 const langar = Langar({ subsets: ['latin'],weight: '400' });
